@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Reddit Clone</title>
+    </head>
+
+    <body>
+        <h1>
+		Which user shall be deleted, sir/madame?
+	</h1>
+        <form name="delete" action="/users/:user_id?_method=DELETE" method="POST">
+            <label for='delete'>User ID:</label>
+            <input type="text" name="user[id]" autofocus required><br>
+            <input type="submit" value="Delete User"><br>
+        </form>
+    </body>
+
+</html>
