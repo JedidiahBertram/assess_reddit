@@ -19,7 +19,7 @@ app.get('/', function(req, res) {
     res.render('statics/home')
 });
 
-//app.use('/users', usersRouter);
+app.use('/users', usersRouter);
 
 app.listen(process.env.PORT || 3001, function() {
     console.log("Server is listening");
