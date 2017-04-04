@@ -18,10 +18,12 @@ To accomplish this I need to:
       -Link project to the repo.
       -Install all dependencies (libraries, frameworks, etc.)
       -Set up project to work with dependencies in server.js file
+           -cont require MAAAAAN!
+           -also app.use to set how these dependencies work.
       -Set knex file to work with postgres.
       -Create folders and files as neccessary
           -this includes the views (.ejs) files, route files, seed files, home page files etc.
-      -Create and set up migration files. 
+      -Create and set up migration files.
 
    -Create and set up server.
       -Nodemon, listeners, and such.
