@@ -1,0 +1,30 @@
+{
+  "name": "assess_reddit",
+  "version": "1.0.0",
+  "description": "This is a readme file.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JedidiahBertram/assess_reddit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JedidiahBertram/assess_reddit/issues"
+  },
+  "homepage": "https://github.com/JedidiahBertram/assess_reddit#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "locus": "^2.0.1",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.1",
+    "pg": "^6.1.5"
+  }
+}
